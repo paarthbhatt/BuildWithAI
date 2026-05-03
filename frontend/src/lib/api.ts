@@ -1,4 +1,4 @@
-const fallbackApiBaseUrl = "http://localhost:8000";
+const fallbackApiBaseUrl = "http://localhost:8010";
 
 const configuredBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL?.trim();
 
