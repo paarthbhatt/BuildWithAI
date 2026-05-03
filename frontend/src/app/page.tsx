@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Camera, CircleGauge, MessageSquare, Radar, Activity, Users, Zap } from "lucide-react";
+import { ArrowRight, Camera, CircleGauge, MessageSquare, Radar, Activity, Users } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 import TiltSurface from "@/components/TiltSurface";
 
