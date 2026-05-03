@@ -12,10 +12,16 @@ export default function ScrollReveal({ children, className = "", delay = 0 }: Sc
   return (
     <motion.div
       className={className}
-      initial={{ opacity: 0, y: 28 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.55, ease: "easeOut", delay }}
+      initial={{ opacity: 0, y: 32, filter: "blur(6px)" }}
+      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+      viewport={{ once: true, amount: 0.15 }}
+      transition={{
+        type: "spring",
+        stiffness: 120,
+        damping: 20,
+        mass: 0.6,
+        delay,
+      }}
     >
       {children}
     </motion.div>
