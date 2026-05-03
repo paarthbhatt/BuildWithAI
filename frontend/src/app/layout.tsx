@@ -9,11 +9,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Agentic Premier League",
-  description: "Stadium Overcrowding Advisory Dashboard",
+  title: "OverFlow — Stadium Operations",
+  description: "OverFlow: Real-time AI-powered stadium crowd management and advisory dashboard.",
   metadataBase: new URL("http://localhost:3000"),
   openGraph: {
-    title: "Agentic Premier League",
+    title: "OverFlow — Stadium Operations",
     description: "Real-time stadium pulse dashboard for gate monitoring and crowd advisories.",
     type: "website",
   },
